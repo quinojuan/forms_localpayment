@@ -1,51 +1,199 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 @font-face {
-    font-family: myFont;
-    src: url("./fonts/Montserrat-Regular.otf");
-  }
-
-input, textarea, button {
-    font-family: myFont;
-}
-.container {
-    background-color: #1b204a;
-    display: flex;
-    justify-content: space-around;
-    height: 230px;
-    width: 800px;
-    padding: 20px 5px;
-    border-radius: 20px;
+  font-family: myFont;
+  src: url("./fonts/Montserrat-Regular.otf");
 }
 
-.column {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+.big-container {
+  border-radius: 20px;
+  width: 950px;
+  height: 430px;
+  background-color: #1b204a;
+  color: white;
+  margin: 15px auto;
+  position: relative;
+}
+
+input,
+textarea,
+button,
+h1,
+p {
+  font-family: myFont;
 }
 
 input {
-    border-radius: 10px;
-    padding: 5px 20px;
-    font-size: 0.9em;
-}
-
-.column-3 {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: flex-end;
+  border-radius: 15px;
+  height: 45px;
+  padding: 5px 20px;
+  font-size: 0.9em;
+  position: absolute;
 }
 
 button {
-    border-radius: 10px;
-    padding: 5px;
-    background-color: #3399ff;
-    color: white;
-    width: 50%;
+  border-radius: 10px;
+  padding: 5px;
+  background-color: #3399ff;
+  color: white;
+  width: 50%;
+}
+
+h1,
+p {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+
+h1 {
+  padding: 15px 0;
+}
+
+p {
+  font-size: 0.8em;
+}
+
+input {
+  width: 270px;
+  height: 45px;
+}
+
+.first-name {
+  top: 130px;
+  left: 40px;
+  z-index: 1;
+}
+
+.lastname {
+  top: 130px;
+  left: 340px;
 }
 
 textarea {
-    border-radius: 10px;
-    padding: 5px 20px;
-    font-size: 0.9em;
-
+  border-radius: 10px;
+  padding: 5px 20px;
+  font-size: 0.9em;
+  width: 270px;
+  height: 180px;
+  top: 130px;
+  left: 640px;
+  position: absolute;
 }
+
+.phone-number {
+  top: 200px;
+  left: 40px;
+}
+
+.email {
+  top: 200px;
+  left: 340px;
+}
+
+.country {
+  left: 40px;
+  top: 270px;
+}
+
+.city {
+  left: 340px;
+  top: 270px;
+}
+
+.position {
+  top: 340px;
+  left: 40px;
+}
+
+.additional-info {
+  left: 340px;
+  top: 340px;
+}
+
+button {
+    width: 90px;
+    height: 35px;
+    position: absolute;
+    left: 820px;
+    top: 345px;
+}
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.prueba {
+  width: 480px;
+  height: 170px;
+  margin: auto;
+  background-color: aquamarine;
+  position: relative;
+}
+
+input {
+  width: 120px;
+  height: 30px;
+  position: absolute;
+}
+
+#one {
+  top: 10px;
+  left: 10px;
+}
+
+#two {
+  top: 10px;
+  left: 140px;
+}
+
+#three {
+  top: 50px;
+  left: 10px;
+}
+#four {
+  top: 50px;
+  left: 140px;
+}
+
+#five {
+  top: 90px;
+  left: 10px;
+}
+
+#six {
+  top: 90px;
+  left: 140px;
+}
+
+#seven {
+  top: 130px;
+  left: 10px;
+}
+
+#eight {
+  top: 130px;
+  left: 140px;
+}
+
+textarea {
+  position: absolute;
+  background-color: darkcyan;
+  width: 200px;
+  height: 110px;
+  top: 10px;
+  left: 270px;
+}
+
+button {
+    height: 25px;
+    width: 50px;
+    position: absolute;
+    top: 135px;
+    left: 420px;
+} */
